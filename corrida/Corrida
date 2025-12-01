@@ -339,7 +339,7 @@ public class Corrida{
         	e.printStackTrace();
         }
 			
-		int variacao = avaliacaoDoPassageiro + (gerador.nextInt(2) - 1);
+		int variacao = (gerador.nextInt(3) - 1);
 		int avaliacaoDoMotorista = avaliacaoDoPassageiro + variacao;
 
 		if (avaliacaoDoMotorista < 1) {
