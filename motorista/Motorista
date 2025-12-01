@@ -97,16 +97,12 @@ public class Motorista extends Usuario{
 	public void iniciarCorrida(ListadeCadastros<Passageiro> listaPassageiros) {
 	  
 	    String[] locais = {
-	        "Setor Comercial Sul",
-	        "Asa Norte",
-	        "Asa Sul",
-	        "Taguatinga Centro",
-	        "Aeroporto JK",
-	        "Guará 2",
-	        "Samambaia Sul",
-	        "Ceilândia Norte",
-	        "Lago Sul",
-	        "Lago Norte"
+	        "Setor Comercial Sul", "Asa Norte", "Asa Sul","Taguatinga Centro",
+	        "Aeroporto JK", "Guará 2", "Samambaia Sul", "Ceilândia Norte", "Lago Sul", 
+	        "Lago Norte", "Rodoviária Plano Piloto", "UNB Campus Darcy Ribeiro",
+	        "UNB Campus FCTE", "Rodoviária Interestadual", "Jardim Botânico",
+	        "Valparaíso", "Park Shopping", "Catedral", "Pontão Lago Sul", 
+	        "BRT Gama", "Santa Maria Norte", "Santa Maria Sul"
 	    };
 
 	    String[] categorias = {"C", "L"};
