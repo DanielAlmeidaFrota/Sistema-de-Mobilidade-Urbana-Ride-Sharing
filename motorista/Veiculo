@@ -1,0 +1,65 @@
+package motorista;
+import java.util.Scanner;
+
+public class Veiculo {
+
+	private String placa, marca, modelo, cor;
+	private int ano;
+
+	Scanner sc = new Scanner(System.in);
+	
+	public Veiculo() {
+		
+	}
+	
+	public Veiculo(String placa, String marca, String modelo, String cor, int ano) {
+		this.placa = placa;
+		this.cor = cor;
+		this.marca = marca;
+		this.ano = ano;
+		this.modelo = modelo;
+		
+	}
+
+	public void cadastrar() {
+		System.out.println("------ Cadastro de Veiculo ------");
+		System.out.println("Informe a placa do veículo: ");
+		this.placa = sc.nextLine();
+		System.out.println("------------------------------------");
+		System.out.println("Informe o a marca do veiculo: ");
+		this.marca = sc.nextLine();
+		System.out.println("------------------------------------");
+		System.out.println("Informe o modelo do veiculo: ");
+		this.modelo = sc.nextLine();
+		System.out.println("------------------------------------");
+		System.out.println("Infome a cor do veiculo: ");
+		this.cor = sc.nextLine();
+		System.out.println("Informe o ano do veiculo: ");
+		this.ano = sc.nextInt();
+	}
+
+	
+	public String getPlaca() {
+		return placa;
+	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public String getModelo() {
+		return modelo;
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public int getAno() {
+		return ano;
+	}
+
+	public String toString() {
+		return getMarca() + " " + getModelo();
+	}
+}
