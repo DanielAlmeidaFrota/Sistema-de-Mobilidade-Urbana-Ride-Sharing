@@ -30,15 +30,15 @@ public class Principal {
 		Scanner sc = new Scanner(System.in);
 		
 		Passageiro[] passageiroPresetado = new Passageiro[10];
-		passageiroPresetado[0] = new Passageiro("Eduardo Alberto", "55661865805", "dudugames@hotmail.com","Dodo2010", "OFFLINE", "PIX", 4.9);
+		passageiroPresetado[0] = new Passageiro("Eduardo Alberto", "55661865805", "dudugames@hotmail.com","Dodo2010", "ONLINE", "PIX", 4.9);
 		passageiroPresetado[1] = new Passageiro("Leo Peliculas", "55162836800", "peliculasleo@outlook.com","Psma2024", "EM CORRIDA", "PIX", 3.4);
 		passageiroPresetado[2] = new Passageiro("Paulo Gabriel","76613381578", "bielzice@hotmail.com","BlackCat10", "OFFLINE", "CARTAO", 4.7);
-		passageiroPresetado[3] = new Passageiro("Adalberto dos Santos","78440733224", "gerencia.adal@caesb.com.br","Milena1997", "OFFLINE", "PIX", 4.9);	
-		passageiroPresetado[4] = new Passageiro("Antônia Zélia","48267860851", "antoniazelia@gmail.com", "Nenete85", "OFFLINE", "PIX", 4.6);
+		passageiroPresetado[3] = new Passageiro("Adalberto dos Santos","78440733224", "gerencia.adal@caesb.com.br","Milena1997", "ONLINE", "PIX", 4.9);	
+		passageiroPresetado[4] = new Passageiro("Antônia Zélia","48267860851", "antoniazelia@gmail.com", "Nenete85", "ONLINE", "PIX", 4.6);
 		passageiroPresetado[5] = new Passageiro("Marco Aurélio","43496785063", "marcoaurelio67@gmail.com", "Aurelio192", "ONLINE", "Dinheiro", 4.5);
 		passageiroPresetado[6] = new Passageiro("Cezar Augustus","33580765477", "neancezar@yahoo.com", "Augustus500", "ONLINE", "Dinheiro", 2.5);
 		passageiroPresetado[7] = new Passageiro("Beatrice Oliveira","68667302368", "oliv23@hotmail.com", "Bia2010", "OFFLINE", "PIX", 4.0);
-		passageiroPresetado[8] = new Passageiro("Suzana Gabrielly","52579367470", "susuki@gmail.com", "Susu15", "OFFLINE","PIX", 1.0);
+		passageiroPresetado[8] = new Passageiro("Suzana Gabrielly","52579367470", "susuki@gmail.com", "Susu15", "ONLINE","PIX", 1.0);
 		passageiroPresetado[9] = new Passageiro("Yasmin Rodrigues","05814906499", "yas@gmail.com", "Yas17", "OFFLINE", "PIX", 5.0);
 		
 		Dinheiro[] dinPresetado = new Dinheiro[2];
