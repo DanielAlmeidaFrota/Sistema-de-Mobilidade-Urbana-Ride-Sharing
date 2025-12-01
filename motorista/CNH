@@ -38,7 +38,7 @@ public class CNH {
 		
 		int mes = validade / 100;
 		int ano = validade % 100;
-		if (mes < 1 || mes > 12 || ano < 25) {
+		if (mes < 1 || mes > 12 || ano < 25 || ano > 35) {
 			System.out.println("Data Inválida"); 
 			return false;
 		}
